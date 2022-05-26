@@ -1,0 +1,133 @@
+h1,h2{
+    font-family: 'Playfair Display', serif;
+    text-shadow: 3px 3px 1px rgba(228,47,47,0.6);
+    margin-left: 20px;
+}
+body{
+    background-image: url("../img/background.jpg");
+    transition: 200ms;
+}
+.button{
+    animation-name: colour;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    border: 2px solid #1F8440;
+    }
+    @keyframes colour{
+        0%{
+            color: red;
+        }
+        25%{
+            color: blue;
+        }
+        50%{
+            color: green;
+        }
+        75%{
+            color: lightblue;
+        }
+    }
+    p{
+        font-family: 'Playfair Display', serif;
+        margin-left: 20px;
+    }
+    a:visited{
+        color:red;
+    }
+    a{
+        color: lightskyblue;
+    }
+    a:hover{
+        color: lightblue;
+    }
+.arena1{
+    background-image: url("../img/arena1.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena2{
+    background-image: url("../img/arena2.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena3{
+    background-image: url("../img/arena3.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena4{
+    background-image: url("../img/arena4.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena5{
+    background-image: url("../img/arena5.jpg");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena6{
+    background-image: url("../img/arena6.jpg");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena7{
+    background-image: url("../img/arena7.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena8{
+    background-image: url("../img/arena8.jpg");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena14{
+    background-image: url("../img/arena14.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena9{
+    background-image: url("../img/arena9.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena10{
+    background-image: url("../img/arena10.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena11{
+    background-image: url("../img/arena11.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena12{
+    background-image: url("../img/arena12.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena13{
+    background-image: url("../img/arena13.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.arena15{
+    background-image: url("../img/arena15.png");
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}

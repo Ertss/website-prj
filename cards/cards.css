@@ -1,0 +1,84 @@
+a:visited{
+    color:red;
+}
+a{
+    color: lightskyblue;
+}
+a:hover{
+    color: lightblue
+}
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+    text-shadow: 6px 3px 1px rgba(228,47,47,0.6);
+    margin-left: 20px;
+}
+body{
+    background-image: url("../img/background.jpg");
+    transition: 200ms;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    margin-left: 20px;
+}
+.button{
+    animation-name: colour;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    border: 2px solid #1F8440;
+    }
+    @keyframes colour{
+        0%{
+            color: red;
+        }
+        25%{
+            color: blue;
+        }
+        50%{
+            color: green;
+        }
+        75%{
+            color: lightblue;
+        }
+    }
+.type:hover{
+    background-color: rgba(117,209,238,0.25);
+}
+.type{
+    margin-top: 20px;
+    height: 40px;
+}
+.red:hover{
+    background-color: rgba(117,209,238,0.25);
+}
+.card5{
+    background-image: url("../img/log.png");
+    width: 400px;
+    height: 320px;
+    background-repeat: no-repeat;
+}
+.card1{
+    background-image: url("../img/valk.png");
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url("../img/mp\ \(2\).jpg");
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image: url("../img/gb.png");
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.card4{
+    background-image: url("../img/ars.jpg");
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
